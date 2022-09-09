@@ -17,15 +17,16 @@ html {
 body {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   background-color: hsl(212, 45%, 89%);
   position: relative;
   min-height: 100vh;
 }
 
+/* main card */
+
 main {
   width: 36rem;
-
   background-color: white;
   position: absolute;
   top: 50%;
@@ -40,11 +41,15 @@ main {
   align-items: center;
 }
 
+/* image section */
+
 img {
-  width: 33rem;
+  width: 32.5rem;
   border-radius: 12px;
-  margin-top: 1.5rem;
+  margin-top: 1.75rem;
 }
+
+/* text section */
 
 .text {
   padding: 2.5rem 3.5rem 4rem 3.5rem;
@@ -62,6 +67,8 @@ p {
   color: hsl(220, 15%, 55%);
   font-size: 1.8rem;
 }
+
+/* footer */
 .attribution {
   font-size: 11px;
   text-align: center;

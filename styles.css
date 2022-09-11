@@ -15,10 +15,13 @@ html {
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   background-color: hsl(212, 45%, 89%);
-  position: relative;
+
   min-height: 100vh;
 }
 
@@ -27,11 +30,6 @@ body {
 main {
   width: 36rem;
   background-color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
   border-radius: 2.2rem;
 }
 .card {
@@ -42,16 +40,19 @@ main {
 
 /* image section */
 
+.card-image {
+  padding: 1.75rem;
+}
+
 img {
-  width: 32.5rem;
   border-radius: 12px;
-  margin-top: 1.75rem;
+  width: 100%;
 }
 
 /* text section */
 
 .text {
-  padding: 2.5rem 3.5rem 4rem 3.5rem;
+  padding: 0 3.5rem 4rem 3.5rem;
   text-align: center;
 }
 
@@ -72,8 +73,8 @@ p {
   font-size: 11px;
   text-align: center;
   position: absolute;
+  bottom: 2rem;
   left: 50%;
-  margin-right: -50%;
   transform: translate(-50%);
 }
 .attribution a {
